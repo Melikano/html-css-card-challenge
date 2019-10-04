@@ -1,0 +1,286 @@
+@media (max-width: 500px) {
+  .card {
+    width: 100% !important;
+  }
+}
+
+@font-face {
+  font-family: "Calibre-Bold";
+  src: url("../fonts/CalibreMedium.otf");
+}
+
+@font-face {
+  font-family: "Calibre-Regular";
+  src: url("../fonts/CalibreLight.otf");
+}
+
+body {
+  margin: 0;
+  font-family: "Calibre-Regular";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Calibre-Bold";
+  padding: 0;
+  margin: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+
+button,
+a {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.card-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.card {
+  width: 22rem;
+  border-width: 5px;
+  border: 5px solid #000;
+  border-radius: 5px;
+}
+
+.card-header {
+  background-color: rgb(26, 123, 193);
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 5% 1% 5%;
+  color: #fff;
+}
+.card-header p {
+  font-size: 0.8em;
+}
+.card-header h5 {
+  font-size: 1em;
+  line-height: 1;
+}
+.header-icon {
+  color: rgb(170, 206, 232);
+  font-size: 1.5em;
+}
+.header-icon:hover {
+  color: #fff;
+}
+
+.card-body {
+  padding: 0;
+  text-align: center;
+}
+
+.top-section {
+  background-image: url("../pictures/BACKGROUND.jpg");
+  background-position: top;
+  background-size: cover;
+  position: relative;
+  height: 18rem;
+  z-index: -2;
+}
+
+.dark-filter {
+  background-color: #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  right: 0;
+  top: 0;
+  position: absolute;
+  opacity: 0.7;
+  z-index: -2;
+}
+.closedBadge {
+  color: #fff;
+  position: relative;
+  transform: rotate(35deg);
+  left: 57%;
+  top: 0;
+  border-bottom: 20px solid rgb(218, 8, 8);
+  border-right: 15px solid transparent;
+  width: 10rem;
+}
+.closedBadge h5 {
+  position: absolute;
+  font-size: 0.8em;
+  padding: 3% 0 3% 60%;
+}
+.info {
+  position: absolute;
+  right: 15%;
+  left: 15%;
+  top: 8%;
+  width: 70%;
+}
+.logo {
+  margin: 3% 0 3% 0;
+  display: inline-block;
+  width: 75px;
+  height: 72px;
+  border-radius: 2px;
+  background-color: #fff;
+  line-height: 7.5;
+}
+.card-title {
+  color: #fff;
+  font-size: 1.2em;
+  margin-top: 3%;
+}
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  left: 15%;
+  top: 68%;
+  width: 70%;
+  height: 100%;
+}
+.circle-item {
+  border: 1px solid rgb(101, 90, 77);
+  display: inline;
+  border-radius: 3rem;
+  font-size: 1.6em;
+  padding: 1%;
+  color: white;
+  height: 3rem;
+  width: 3rem;
+  text-align: center;
+  line-height: 2.2;
+}
+
+.user-icon {
+  color: #fff;
+  position: absolute;
+  left: 90%;
+  top: 85%;
+  font-size: 0.8em;
+}
+
+.bottom-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+  box-shadow: 0px 0 4px 0px gray;
+  height: 7rem;
+}
+
+.social-info {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid lightgray;
+  background-color: white;
+  align-self: center;
+  position: absolute;
+  top: -1rem;
+  border-radius: 5px;
+  padding: 2% 0 2% 0;
+  width: 85%;
+}
+.social-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 13%;
+  width: 85%;
+  height: 37%;
+  align-self: center;
+}
+.social-item h2 {
+  font-size: 1.2em;
+}
+.social-item p {
+  line-height: 1;
+  font-size: 1em;
+  color: gray;
+}
+.status-btn {
+  width: 50%;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(4, 204, 51);
+  color: white;
+}
+.segment-buttons {
+  width: 43%;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.segment-button {
+  background-color: white;
+  color: rgb(17, 180, 247);
+  border: none;
+  font-size: 1.5rem;
+  width: 45%;
+}
+.left-btn {
+  border-right: 1px solid lightgray;
+}
+
+.suggestion-section {
+  background-color: rgb(238, 231, 225);
+  padding: 3% 2% 0 2%;
+}
+.suggestion-item {
+  background-color: #fff;
+  border-radius: 3px;
+  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+.suggestion-item-logo {
+  margin: 5%;
+}
+
+.suggestion-item-description {
+  text-align: left;
+  margin-top: 9%;
+}
+.suggestion-item-description h5 {
+  font-size: 1.2em;
+}
+.suggestion-item-description p {
+  color: gray;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #000;
+  padding: 0;
+  position: relative;
+}
+.fade-filter {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(-90deg, #000, transparent, #000);
+}
+
+.footer-item {
+  color: #fff;
+  padding: 8% 0 6% 0;
+}
+.active {
+  color: rgb(4, 204, 51);
+  border-bottom: 3px solid rgb(112, 121, 219);
+}
+
+.footer-item p {
+  font-weight: bold;
+  font-size: 0.8em;
+}
