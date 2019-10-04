@@ -70,6 +70,7 @@ a {
 .header-icon {
   color: rgb(170, 206, 232);
   font-size: 1.5em;
+  padding: 0;
 }
 .header-icon:hover {
   color: #fff;
@@ -86,7 +87,6 @@ a {
   background-size: cover;
   position: relative;
   height: 18rem;
-  z-index: -2;
 }
 
 .dark-filter {
@@ -98,22 +98,22 @@ a {
   top: 0;
   position: absolute;
   opacity: 0.7;
-  z-index: -2;
 }
 .closedBadge {
   color: #fff;
   position: relative;
   transform: rotate(35deg);
-  left: 57%;
-  top: 0;
+  left: 78%;
+  top: 3%;
   border-bottom: 20px solid rgb(218, 8, 8);
   border-right: 15px solid transparent;
-  width: 10rem;
+  width: 3rem;
+  border-left: 28px solid transparent;
 }
 .closedBadge h5 {
   position: absolute;
   font-size: 0.8em;
-  padding: 3% 0 3% 60%;
+  padding-top: 8%;
 }
 .info {
   position: absolute;
@@ -159,11 +159,14 @@ a {
 }
 
 .user-icon {
-  color: #fff;
+  color: rgb(138, 128, 115);
   position: absolute;
   left: 90%;
   top: 85%;
   font-size: 0.8em;
+}
+.user-icon:hover {
+  color: #fff;
 }
 
 .bottom-section {
